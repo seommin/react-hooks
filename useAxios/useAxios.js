@@ -23,7 +23,7 @@ export const useAxios = (opts, axiosInstance = defaultAxios) => {
       .then(data => {
         setState({
           ...state,
-          loading: false,
+          loading: false, 
           data
         });
       })
